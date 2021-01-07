@@ -124,7 +124,7 @@ translator:
 reverse_lookup:
   dictionary: stroke
   enable_completion: true
-  prefix: "`"
+  prefix: "^"
   suffix: "'"
   tips: 〔筆畫〕
   preedit_format:
@@ -141,4 +141,4 @@ key_binder:
 recognizer:
   import_preset: default
   patterns:
-    reverse_lookup: "`[a-z]*'?$"
+    reverse_lookup: "^[a-z]*'?$"
